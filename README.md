@@ -8,7 +8,7 @@ This book API has full CRUD operation on a MongoDB.
 
 I have a post on medium.com to show you how to config ESLint <https://medium.com/@ljn787/how-to-set-up-eslint-with-airbnb-javascript-style-guide-on-vs-code-215d1bd34903>
 
-2. Mocha <https://github.com/mochajs/mocha>
+2. [Mocha](https://github.com/mochajs/mocha)
 
 3. Chai <https://github.com/chaijs/chai>
 
