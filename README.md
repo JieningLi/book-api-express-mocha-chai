@@ -4,9 +4,7 @@ This book API has full CRUD operation on a MongoDB.
 
 ## Tools used in this application
 
-1. [ESLint](https://github.com/eslint/eslint)
-
-Follow my post on Medium to set up your ESLint on nodejs project: [link](https://medium.com/@ljn787/how-to-set-up-eslint-with-airbnb-javascript-style-guide-on-vs-code-215d1bd34903)
+1. [ESLint](https://github.com/eslint/eslint). Follow my [post](https://medium.com/@ljn787/how-to-set-up-eslint-with-airbnb-javascript-style-guide-on-vs-code-215d1bd34903) on Medium to set up your ESLint on nodejs project.
 
 2. [Mocha](https://github.com/mochajs/mocha)
 
