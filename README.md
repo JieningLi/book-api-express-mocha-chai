@@ -1,6 +1,6 @@
 # Build a RESTful API with express js with Mocha/Chai testing
 
-This book API has full CRUD operation on a MongoDB.
+This book API has a full CRUD operation on a MongoDB database.
 
 ## Tools used in this application
 
@@ -12,7 +12,9 @@ This book API has full CRUD operation on a MongoDB.
 
 4. [Nodemon](https://github.com/remy/nodemon): is a utility that automatically restart when your code changes.
 
-## Steps to Setup
+5. [Mongoose](https://github.com/Automattic/mongoose): is an Object Data Modeling (ODM) library for MongoDB and Node.js.
+
+## Steps to run application
 
 1. Install dependencies
 
@@ -32,7 +34,7 @@ npm start
 npm lint
 ```
 
-4. Run Server
+4. Run test
 
 ```bash
 npm test
