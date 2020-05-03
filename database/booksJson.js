@@ -1,3 +1,5 @@
+// insert this list into your MongoDB
+
 db.books.insert([
   {
     title: 'Learning C++',
