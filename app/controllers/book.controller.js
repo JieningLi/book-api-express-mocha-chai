@@ -51,7 +51,7 @@ exports.findOne = (req, res) => {
 // Update a book identified by the bookId in the request
 exports.update = (req, res) => {
   Book.findByIdAndUpdate(req.params.bookId, req.body, {
-    useFindAndModify: false,
+    new: true,
   })
     .then((data) => {
       if (!data) {

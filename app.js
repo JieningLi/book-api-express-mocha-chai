@@ -15,6 +15,7 @@ mongoose.Promise = global.Promise;
 mongoose
   .connect(dbConfig.mongoURI[app.settings.env], {
     useNewUrlParser: true,
+    useFindAndModify: false,
   })
   .then(
     () => {

@@ -126,6 +126,9 @@ describe('Book API', () => {
               response.body.should.have.property('title');
               response.body.should.have.property('genre');
               response.body.should.have.property('read');
+              response.body.read.should.equal(false);
+              response.body.title.should.equal('Test book title new');
+              response.body.genre.should.equal('Test genre new');
               response.body.author.should.equal('Test author new');
               done();
             });
