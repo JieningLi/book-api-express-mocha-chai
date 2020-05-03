@@ -1,4 +1,4 @@
-# Build a RESTful Book API with express js and Mongodb
+# Build a RESTful Book API with express js and MongoDB
 
 This book API has a full CRUD operation. Testings are done under Mocha and Chai framework.
 
